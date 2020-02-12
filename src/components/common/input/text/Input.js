@@ -18,6 +18,9 @@ function Input(props){
       draft.name = name
     })
   }
+
+  
+
   onChange && onChange(values);
   return (
     <input 
